@@ -1,0 +1,26 @@
+# Site settings
+title: Security Consult, Inc
+email:
+description: > # this means to ignore newlines until "baseurl:"
+ Security Consult, Inc
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+# User setting
+owner: Security Consult, Inc
+email: info@securityconsult411.com
+facebook_username: 411SC
+twitter_username: 411Security
+github_username:
+address:
+  - line: PO Box 12611
+  - line: Charlotte, NC 28220
+  # Feel free to add more lines here
+telephone: 704-531-8399
+copyright:
+
+# API settings
+google_api_key: 17123535581
+
+# Build settings
+markdown: kramdown
