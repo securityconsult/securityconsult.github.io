@@ -2,27 +2,26 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-  <meta name="google-signin-client_id"
-    content="575064441282-edcq2iim0b44df3pccc8aagm8gur7b73.apps.googleusercontent.com">
 
-
-  <title>{{ site.title }}</title>
+  <title>Security Consult 411</title>
 
   <!-- Bootstrap Core CSS -->
-  <!--   <link href="css/bootstrap.min.css" rel="stylesheet"> -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
   <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.css" rel="stylesheet">
+
   <link href="{{ site.baseurl }}/css/securityconsult.css" rel="stylesheet">
   <link href="{{ site.baseurl }}/css/flexslider.css" rel="stylesheet">
 
   <!-- Custom Fonts -->
-  <link href="{{ site.baseurl }}/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
     rel="stylesheet" type="text/css">
+
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"
     integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
@@ -30,7 +29,6 @@
     crossorigin="anonymous"></script>
   <!-- Flexslider Library  -->
   <script src="{{ site.baseurl }}/js/jquery.flexslider-min.js"></script>
-
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
