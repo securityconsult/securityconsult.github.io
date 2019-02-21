@@ -267,8 +267,8 @@ hr.small {
 }
 
 .call-to-action a {
-    text-decoration: none;
-    color: #999;
+    text-decoration: underline;
+    color: #000;
 }
 
 .call-to-action .btn {

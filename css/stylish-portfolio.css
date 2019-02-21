@@ -44,6 +44,11 @@ body {
     background-color: rgba(0,0,0,0.7);
 }
 
+.call-to-action  a {
+    display: block;
+    text-decoration: bold;
+    color: #000;
+}
 .btn-light {
     border-radius: 0;
     color: #333;
@@ -216,10 +221,6 @@ hr.small {
     padding: 50px 0;
 }
 
-.call-to-action a {
-    text-decoration: none;
-    color: #999;
-}
 
 .call-to-action .btn {
     margin: 10px;
