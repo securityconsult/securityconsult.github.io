@@ -17,3 +17,19 @@
 <script
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&libraries=places&callback=initMap"
     async defer></script>
+<script>
+window.addEventListener('load',function(){
+  
+  jQuery('[action="https://formspree.io/sales@securityconsult411.com"]').submit(function(){
+    gtag('event', 'submit', {
+  'event_category' : 'form',
+  'event_label' : 'contact'
+});
+});
+
+jQuery('[href*="tel:"]').click(function(){
+      gtag('event', 'click', {'event_category' : 'number', 'event_label' : jQuery(this).attr('href')});
+    });
+
+  });
+</script>
