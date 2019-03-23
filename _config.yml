@@ -11,13 +11,13 @@ owner: Security Consult, Inc
 email: sales@securityconsult411.com
 facebook_username: 411SC
 twitter_username: 411Security
-github_username:
+github_username: securityconsult
 address:
   - line: PO Box 12611
   - line: Charlotte, NC 28220
   # Feel free to add more lines here
 telephone: 704-531-8399
-copyright:
+copyright: 2019
 
 # API settings
 google_api_key: 17123535581
