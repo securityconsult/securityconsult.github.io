@@ -9,27 +9,15 @@
       Us</button>
   </div>
 
-  {% include navigation.html %}
-  {% include header.html %}
-  {% include about.html %}
-  {% include services.html %}
-  {% include callout.html %}
-  {% include flexslider-portfolio.html %}
-  {% include call-to-action.html %}
-  {% include authorized.html %}
-  {% include licenses.html %}
-  <!-- {% include map.html %} -->
-  {% include footer.html %}
-  {% include scripts.html %}
-  <div id="myModal" class="modal fade" role="dialog">
+  <!--Begin Modal Window-->
+  <div class="modal fade left" id="myModal">
     <div class="modal-dialog">
-      <!-- Modal content-->
-      <div class="bg-primary">
+      <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">
-            Contact Us
-          </h4>
+          <h3 class="pull-left no-margin">Contact Form</h3>
+          <button type="button" class="close" data-dismiss="modal" title="Close"><span
+              class="glyphicon glyphicon-remove"></span>
+          </button>
         </div>
         <div class="modal-body">
           <form action="https://formspree.io/sales@securityconsult411.com" method="POST">
@@ -55,11 +43,34 @@
             <input type="hidden" name="_next" value="index.html" />
             <input type="text" name="_gotcha" style="display:none" />
 
-            <button type="submit" class="btn btn-lg btn-success btn-block" id="btnContactUs">Send Form &rarr;</button>
+            <button type="submit" class="btn btn-lg btn-success btn-block" id="btnContactUs">Send Form
+              &rarr;</button>
           </form>
+        </div>
+
+        <div class="modal-footer">
+          <div class="col-xs-10 pull-left text-left text-muted">
+            <small><strong></strong>
+            </small>
+          </div>
+          <button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
+  </div>
+  {% include navigation.html %}
+  {% include header.html %}
+  {% include about.html %}
+  {% include services.html %}
+  {% include callout.html %}
+  {% include flexslider-portfolio.html %}
+  {% include call-to-action.html %}
+  {% include authorized.html %}
+  {% include licenses.html %}
+  <!-- {% include map.html %} -->
+  {% include footer.html %}
+  {% include scripts.html %}
+
 </body>
 
 </html>

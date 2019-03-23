@@ -35,6 +35,25 @@ body {
 }
 
 
+
+
+
+dialog {
+    background-color: rgb(255, 255, 255);
+}
+dialog[open]:not(:focus-within) {
+    background-color: rgb(255, 255, 254);
+    transition: background-color 0.01s ease;
+}
+
+/* Polyfill for Dialog on FF, Safari etc */
+.no-dialog dialog {
+  display: none;
+}
+
+.no-dialog dialog[open] {
+  display: block;
+}
 .rotated
 {
 	-moz-transform:rotate(-90deg);
@@ -52,7 +71,8 @@ body {
 	border: 1px solid #fff;
 	position: fixed;
   	top: 55%;
-  	left: 0;
+      left: 0;
+      z-index: 1000 !important
 
 }
 
@@ -215,6 +235,7 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    z-index: 10000 !important
 }
 
 /* About */
