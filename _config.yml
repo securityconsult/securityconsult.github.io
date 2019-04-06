@@ -24,3 +24,5 @@ google_api_key: 17123535581
 
 # Build settings
 markdown: kramdown
+plugins:
+  - jekyll-redirect-from
